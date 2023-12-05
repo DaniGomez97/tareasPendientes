@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Como se calcula la caja que rodea el elemento (altura y anchura */
+}
+
+html, body {
+  color: white;
+  background-color: #1b1b32 ;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap; /* Los elem no tienen que ajustarse en una sola fila sino que si algun elem coge todo el ancho, los demas pasan a la sig lin */
+  justify-content: center;
+  align-items: center;
+}
+
+.tareas-lista-pricnipal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
+
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
